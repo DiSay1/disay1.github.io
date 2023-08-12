@@ -424,8 +424,20 @@ body {
     margin-top: 100px;
   }
 }
+
+@media (max-width: 460px) {
+  .req {
+    font-size: 18px;
+    font-weight: var(--regular);
+  }
+}
+
 @media (max-width: 365px) {
   .card__link {
     padding: 20px 50px;
+  }
+  .req {
+    font-size: 14px;
+    font-weight: var(--regular);
   }
 }
